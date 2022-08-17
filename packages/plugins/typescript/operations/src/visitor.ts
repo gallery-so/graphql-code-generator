@@ -11,7 +11,7 @@ import {
   SelectionSetProcessorConfig,
   SelectionSetToObject,
   wrapTypeWithModifiers,
-} from '@graphql-codegen/visitor-plugin-common';
+} from '@gallery-so/visitor-plugin-common';
 import autoBind from 'auto-bind';
 import { GraphQLNamedType, GraphQLOutputType, GraphQLSchema, isEnumType, isNonNullType } from 'graphql';
 import { TypeScriptDocumentsPluginConfig } from './config.js';
@@ -102,6 +102,7 @@ export class TypeScriptDocumentsVisitor extends BaseDocumentsVisitor<
     );
     const enumsNames = Object.keys(schema.getTypeMap()).filter(typeName => isEnumType(schema.getType(typeName)));
     this.setVariablesTransformer(
+      // @ts-expect-error Don't want to have to fork another package
       new TypeScriptOperationVariablesToObject(
         this.scalars,
         this.convertName.bind(this),

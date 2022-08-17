@@ -5,7 +5,7 @@ import {
   PrimitiveAliasedFields,
   SelectionSetProcessorConfig,
   PrimitiveField,
-} from '@graphql-codegen/visitor-plugin-common';
+} from '@gallery-so/visitor-plugin-common';
 import { GraphQLObjectType, GraphQLInterfaceType } from 'graphql';
 
 export class TypeScriptSelectionSetProcessor extends BaseSelectionSetProcessor<SelectionSetProcessorConfig> {

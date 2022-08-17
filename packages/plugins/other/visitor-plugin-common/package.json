@@ -1,12 +1,7 @@
 {
-  "name": "@graphql-codegen/visitor-plugin-common",
-  "version": "2.12.1",
+  "name": "@gallery-so/visitor-plugin-common",
+  "version": "0.0.1",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dotansimha/graphql-code-generator.git",
-    "directory": "packages/plugins/other/visitor-plugin-common"
-  },
   "scripts": {
     "lint": "eslint **/*.ts",
     "test": "jest --no-watchman --config ../../../../jest.config.js"
