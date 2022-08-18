@@ -1,6 +1,6 @@
 ## Hello 👋
 
-This is Gallery's fork of [https://github.com/dotansimha/graphql-code-generator]. More specifically, a fork of the [`@graphql-codegen/typescript-oeprations`](https://www.graphql-code-generator.com/plugins/typescript/typescript-operations) package.
+This is Gallery's fork of [https://github.com/dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator). More specifically, a fork of the [`@graphql-codegen/typescript-oeprations`](https://www.graphql-code-generator.com/plugins/typescript/typescript-operations) package.
 
 ### What does this fork do?
 

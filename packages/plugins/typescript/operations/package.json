@@ -1,10 +1,10 @@
 {
   "name": "@gallery-so/typescript-operations",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "GraphQL Code Generator plugin for generating TypeScript types for GraphQL queries, mutations, subscriptions and fragments",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dotansimha/graphql-code-generator.git",
+    "url": "https://github.com/gallery-so/graphql-code-generator",
     "directory": "packages/plugins/typescript/operations"
   },
   "license": "MIT",
